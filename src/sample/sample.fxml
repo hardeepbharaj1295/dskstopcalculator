@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="275.0" prefWidth="225.0">
+         <children>
+            <TextArea fx:id="textArea" editable="false" prefHeight="52.0" prefWidth="225.0" />
+            <Button fx:id="one" layoutY="53.0" mnemonicParsing="false" onAction="#result" prefHeight="52.0" prefWidth="48.0" text="1" />
+            <Button fx:id="two" layoutX="48.0" layoutY="53.0" mnemonicParsing="false" onAction="#result" prefHeight="52.0" prefWidth="48.0" text="2" />
+            <Button fx:id="three" layoutX="112.0" layoutY="52.0" mnemonicParsing="false" onAction="#result" prefHeight="27.0" prefWidth="35.0" text="3" />
+            <Button fx:id="plus" layoutX="167.0" layoutY="52.0" mnemonicParsing="false" onAction="#result" prefHeight="27.0" prefWidth="35.0" text="+" />
+            <Button fx:id="equal" layoutX="167.0" layoutY="91.0" mnemonicParsing="false" onAction="#result" prefHeight="27.0" prefWidth="35.0" text="=" />
+            <Button fx:id="minus" layoutX="174.0" layoutY="124.0" mnemonicParsing="false" onAction="#result" text="-" />
+            <Button fx:id="clear" layoutX="157.0" layoutY="165.0" mnemonicParsing="false" onAction="#result" text="AC" />
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
